@@ -83,7 +83,7 @@
                     width: '60px',
                     editable: false,
                     formatter: function (code) {
-                        return code ? '已发布' : '<span style="color: red;font-weight: 700">草稿</span>';
+                        return code ? '已发布' : '<span style="color: #ff0000;font-weight: 700">草稿</span>';
                     }
                 }, {
                     field: 'recommended',

@@ -229,6 +229,7 @@ $(function () {
         $("#currentTime").html(now.format('yyyy年MM月dd日 hh时mm分ss秒') + " " + weekArr[now.getDay()]);
     }
 
+    //在线人数
     $.websocket.open({
         host: "ws://localhost:8443/websocket",
         reconnect: true,

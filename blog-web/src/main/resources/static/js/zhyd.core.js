@@ -114,6 +114,7 @@
             _this: null,
             _initialized: false,
             init: function (options) {
+                console.log(options);
                 if (!this.isSupported()) {
                     // console.error('Not support websocket');
                     return;
